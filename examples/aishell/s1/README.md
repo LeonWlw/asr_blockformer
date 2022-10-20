@@ -15,9 +15,9 @@ blockerformer
 
 | decoding mode/chunk size | full |
 |--------------------------|------|
-| attention decoder        |  /   |
-| ctc greedy search        |  /   |
-| ctc prefix beam search   |  /   |
+| attention decoder        | 5.25 |
+| ctc greedy search        | 4.65 |
+| ctc prefix beam search   | 4.65 |
 | attention rescoring      | 4.29 |
 | LM + attention rescoring | 4.05 |
 

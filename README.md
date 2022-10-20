@@ -10,12 +10,13 @@ We achieve state-of-the-art result on Aishell-1 Mandarin datasets.
 ### Results
 Currently we have released examples on Aishell-1 dataset.  
 We achieve results on Aishell-1 below. All results are in CER%  
+The model file of blockformer is [here](https://drive.google.com/file/d/1rFSTAO7M3V5aBhfH3cuF-dcB4j9GdYcG/view?usp=sharing) for quick performance check.
 
 |  decoding mode/chunk size  | full |  
 |  :----                     | :-:  |
-|  attention decoder         |  -   | 
-|  ctc greedy search         |  -   |
-|  ctc prefix beam search    |  -   |
+|  attention decoder         | 5.25 |
+|  ctc greedy search         | 4.65 |
+|  ctc prefix beam search    | 4.65 |
 |  attention rescoring       | 4.29 |
 |  LM + attention rescoring  | 4.05 |
  
